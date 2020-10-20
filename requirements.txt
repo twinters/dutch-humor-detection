@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+cachier
+pandas
+torch
+numpy
+sklearn
+pytorch-lightning
+torch
+matplotlib
+jsonlines
+gensim
+-e git+git@github.com:iPieter/kiwi.ml.git@76b66872fce68873809a0dea112e2ed552ae5b63#egg=kiwi

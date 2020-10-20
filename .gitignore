@@ -1,0 +1,13 @@
+.idea/
+venv/
+.cachier/
+sources/__pycache__/
+data/raw/dpgmedia.jsonl
+
+data/raw/roularta-160.txt
+
+src/__pycache__/
+
+src/datasets/__pycache__/
+
+src/modules/__pycache__/
