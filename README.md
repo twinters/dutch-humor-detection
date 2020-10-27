@@ -46,7 +46,6 @@ The code for Naive Bayes is on a separate branch, as it requires a different arc
   title={Dutch Humor Detection by Generating Negative Examples},
   author={Winters, Thomas and Delobelle, Pieter},
   booktitle={Proceedings of the 32st Benelux Conference on Artificial Intelligence (BNAIC 2020) and the 29th Belgian Dutch Conference on Machine Learning (Benelearn 2020)},
-  year={2020},
-  organization={CEUR-WS}
+  year={2020}
 }
 ```
