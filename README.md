@@ -1,7 +1,7 @@
 # Dutch Humor Detection by Generating Negative Examples
 ![Python](https://img.shields.io/badge/python-v3.7-blue.svg?logo=Python&logoColor=white)
 
-This repository includes the experiments we performed for our [paper »](). We have different features and multiple classifiers:
+This repository includes the experiments we performed for our [paper »](https://arxiv.org/pdf/2010.13652.pdf). We have different features and multiple classifiers:
 
 **Features**
 - [TF-IDF »](src/datasets/tfidf.py)
