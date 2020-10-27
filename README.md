@@ -20,7 +20,7 @@ This repository includes the experiments we performed for our [paper »](). We h
 Detecting if a text is humorous is a hard task to do computationally, as it usually requires linguistic and common sense insights. In machine learning, humor detection is usually modelled as a binary classification task, trained to predict if the given text is a joke or another type of text. Rather than using completely different non-humorous texts, we propose using text generation algorithms for imitating the original joke dataset to increase the difficulty for the learning algorithm. We constructed several different joke and non-joke datasets to test the humor detection abilities of different language technologies. In particular, we test if the RobBERT language model is more capable than previous technologies for detecting humor when given generated similar non-jokes. In doing so, we create and compare the first Dutch humor detection systems. We found that RobBERT outperforms other algorithms, and especially shines when distinguishing jokes from the generated negative examples. This performance illustrates the usefulness of using text generation to create negative datasets for humor recognition, and also shows that transformer models are a large step forward in humor detection.
 
 
-📄 Read the full paper [here »]()
+📄 Read the full paper [here »](https://arxiv.org/pdf/2010.13652.pdf)
 
 ### Get started
 The code in `sources/` is used to scrape the data. See the corresponding files for each dataset.
@@ -42,5 +42,11 @@ The code for Naive Bayes is on a separate branch, as it requires a different arc
 
 ### Citing
 ```text
-
+@inproceedings{winters2020humordetection,
+  title={Dutch Humor Detection by Generating Negative Examples},
+  author={Winters, Thomas and Delobelle, Pieter},
+  booktitle={Proceedings of the 32st Benelux Conference on Artificial Intelligence (BNAIC 2020) and the 29th Belgian Dutch Conference on Machine Learning (Benelearn 2020)},
+  year={2020},
+  organization={CEUR-WS}
+}
 ```
