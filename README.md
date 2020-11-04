@@ -40,6 +40,9 @@ This shows that such transformer models might have more grasp on humor, or at le
 
 ![Results](fig/results.png)
 
+
+![Performance of neural models on Dutch joke detection datasets](https://thomaswinters.be/static/38442266f314104d52fdc3e69a6ac56d/5a190/results.png)
+
 You can read more details in [our paper](https://arxiv.org/abs/2010.13652), or in the [project page](https://thomaswinters.be/robbert-humor).
 
 
