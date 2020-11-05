@@ -16,8 +16,8 @@ Given that **jokes are fragile**, changing only a handful of important words, co
 ### Dynamic Template algorithm
 
 To generate non-jokes, we used our [dynamic template algorithm](https://github.com/twinters/dynamic-template).
-This algorithm was already successfully in [TorfsBot](https://thomaswinters.be/torfsbot) Twitterbot, which imitates Rik Torfs with more nonsensical tweets.
-We used this algorithm to **automatically break jokes** by replacing words with words from other jokes.
+This algorithm was already successfully in [TorfsBot](https://thomaswinters.be/torfsbot) Twitterbot which turns semi-philosophical texts into nonsensical tweets.
+We used this algorithm here to **automatically break jokes** by replacing words with words from other jokes.
 
 #### Dynamic Template Example
 
