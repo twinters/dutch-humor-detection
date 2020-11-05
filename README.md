@@ -74,7 +74,7 @@ We have different features and multiple classifiers, which you can find in our `
 
 
 ### Get started
-The code in `sources/` is used to scrape the data. See the corresponding files for each dataset.
+The code in `src/datasources/` is used to scrape the data. See the corresponding files for each dataset.
 
 There is also a script to prepare two scraped datasets for training a RobBERT model, you can use that script like this:
 
@@ -89,7 +89,6 @@ pip install -r requirements.txt
 python run.py
 ```
 
-The code for Naive Bayes is on a separate branch, as it requires a different architecture than for Pytorch.
 
 ### Citing
 ```text
