@@ -5,6 +5,8 @@ This project contains the algorithms used for the [*"Dutch Humor Detection by Ge
 We finetuned the **[RobBERT](/robbert)** Dutch language model, and found that it **outperforms previous neural models** like LSTMs and CNNs on this new dataset.
 In doing so, we created the very **first Dutch humor detection systems**.
 
+![Results](fig/bar.png)
+
 ## New type of joke dataset
 
 Many previous humor detection systems have learned to distinguish jokes from **completely different types** of text, e.g. news and proverbs.
