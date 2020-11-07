@@ -82,6 +82,8 @@ There is also a script to prepare two scraped datasets for training a RobBERT mo
 python src/datasources/prepare_datsets.py data/processed/jokes.json data/processed/dynamic_template_jokes.json --mode classification 2> labels.txt 1> sentences.txt
 ```
 
+The generated non-jokes are created by running the [dynamic template algorithm](https://github.com/twinters/dynamic-template) with default settings on the scraped `jokes.json`.
+
 The code in `src/` is to train the models. Run the training + evaluation code by running the entry point `run.py` in the root.
 
 ```shell script
