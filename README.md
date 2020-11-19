@@ -55,9 +55,11 @@ Detecting if a text is humorous is a hard task to do computationally, as it usua
 
 📄 Read the full paper [here »](https://arxiv.org/pdf/2010.13652.pdf)
 
-### Code
+### Code & Models
 
 This repository includes the experiments we performed for our [paper »](https://arxiv.org/pdf/2010.13652.pdf).
+
+The models can be downloaded from the [releases page][https://github.com/twinters/dutch-humor-detection/releases/tag/1.0.0)
 
 We have different features and multiple classifiers, which you can find in our `/src/` folder
 
